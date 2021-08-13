@@ -1,0 +1,8 @@
+# comment
+
+gd    $HOME/Documents
+gp    $HOME/Pictures
+ga    $HOME/Audio
+gv    $HOME/Videos
+gx    $HOME/Software
+lcdoc $HOME/Documents/Documentation/LibertaCasa/
