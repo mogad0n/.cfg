@@ -1,0 +1,7 @@
+
+
+## InfoSec
+
+archsec-advisory                https://security.archlinux.org/advisory/feed.atom
+nvd-acve                        https://nvd.nist.gov/feeds/xml/cve/misc/nvd-rss-analyzed.xml
+nvd-cve                         https://nvd.nist.gov/feeds/xml/cve/misc/nvd-rss.xml
