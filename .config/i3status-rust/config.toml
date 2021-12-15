@@ -1,5 +1,8 @@
-theme = "gruvbox-dark"
-icons = "awesome"
+[theme]
+name = "space-villain"
+
+[icons]
+name = "awesome"
 
 [[block]]
 block = "net"
