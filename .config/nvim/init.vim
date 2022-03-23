@@ -1,10 +1,8 @@
 set pastetoggle=<F2>
-set tabstop=4
-set shiftwidth=4
-set expandtab
 set 
 call plug#begin('~/.local/share/nvim/plugged')
 
+Plug 'liuchengxu/graphviz.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
 Plug 'scrooloose/nerdtree'
