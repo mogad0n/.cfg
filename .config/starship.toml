@@ -1,6 +1,10 @@
 # ~/.config/starship.toml
 
+
+
+
 # custom prompt
+
 [aws]
 symbol = "  "
 
@@ -11,6 +15,8 @@ symbol = " "
 symbol = " "
 
 [directory]
+truncation_length = 8
+truncation_symbol = "…/"
 read_only = " "
 
 [docker_context]
@@ -73,3 +79,11 @@ symbol = " "
 [swift]
 symbol = "ﯣ "
 
+[battery]
+format = "[$symbol$percentage]($style) "
+full_symbol = "🔋 "
+charging_symbol = "⚡️ "
+discharging_symbol = "💀 "
+
+[prompt]
+format = "$all$directory$character"
