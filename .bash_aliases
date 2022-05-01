@@ -1,3 +1,7 @@
+# 
+#
+#
+# Please include these in the `.bashrc`
 #
 # ~/.bash_aliases
 #
@@ -6,6 +10,9 @@
 
 # dotfiles
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+#alias cfg="config"
+#alias cfgcsm"config commit -S -m"
+#alias cfgp2om="config push -u origin master"
 
 # Assumes `exa` package is installed
 alias ll='exa -l'
