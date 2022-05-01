@@ -49,4 +49,15 @@ alias gck='git checkout'
 alias gckb='git checkout -b'
 alias gvrf='git rev-parse --verify HEAD'
 alias gscm='git commit -S -m'
+
+# aureport and ausearch
+alias aurepwk='aureport --start this-week'
+alias aurepwkv='aureport --start this-week --key --summary'
+# syscall audit rule for failure to open files due to EPERM with key field access
+# add to syscall.rules
+# -a always,exit -F arch=b64 -S open -S openat -F exit=-EPERM -k access
+# check which files have been attempted
+alias aurfilist='ausearch --start this-week -k access --raw | aureport --file --summary'
+# check the user accounts implicated 
+alias aurlusfi='ausearch --start this-week -k access --raw | aureport --user --summary'
 ~
